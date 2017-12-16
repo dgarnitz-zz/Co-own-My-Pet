@@ -1,0 +1,205 @@
+/* I NEED TO FIND FONTS*/
+
+
+/*EVERYTHING GENERALIZED need to be REWRITTEN. Class or id names for every section*/
+
+/* Generic Code Section */
+
+body {
+	font-family: 'Spectral SC', serif;
+	background-color: #87cefa;
+	/* change the color later */
+	}
+	
+.homepage_top {
+	background-color: #7fffd4;
+	padding: 30px; 
+	margin-top: -30px;
+	width: 100%
+	margin-left: -10px;
+	border-bottom: solid white; 
+	}
+
+.homepage_top a:link, .homepage_top a:visited {
+	color: white;
+	}
+
+.signIn {
+	height 60px;
+	width: 200px; 
+	font-size: 18px; 
+	}
+
+.companyName {
+	text-align: center; 
+	color: white;
+	font-weight: bold;
+	margin: auto;
+	}
+	
+.bottom_bar {
+	height: 5%;
+	/* need this div to go from the bottom of the page up 15% */
+	width: 100%;
+	background-color: #ffd1dc;
+	color: black;
+	/*change the color later*/
+	text-align: center;
+	font-size: 20px;
+	clear: both;
+	border-top: solid white;
+	}
+
+/* Homepage Code Section */
+
+li {
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+	position: relative;
+	}
+
+/*  #homepageImage {
+	text-align: center;
+	}	
+
+adjust this styling 
+div > img { 
+	height: 530px;
+	} */
+	
+/* adjust this styling */
+h2 {
+	text-align: center;
+	color: white;
+	}
+
+.homepage_menu {
+	text-align: center;
+	font-size: 30px;
+	}
+
+.homepage_menu a:link, .homepage_menu a:visited {
+	color: white;
+	}
+
+#mailingList {
+	text-align: center;
+	font-size: 20px;
+	}
+	
+#landingPage {
+	text-align: center;
+	font-size: 20px;
+	}
+		
+/* adjust this styling */	
+div > h3 {
+	font-size: 26px;
+	text-decoration: underline;
+	}
+	
+/* Account Creation Page Section */
+	
+#accountCreationToggle {
+	float: left; 
+	margin-left: 12%;
+	margin-top: 50px; 
+	}
+	
+#accountCreationForm {
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 20px; 
+	margin-right: 13%;
+	background-color: #f6f6f6;
+	border: solid white;
+	border-radius: 10px;
+	}
+
+#accountCreationForm a:link, #accountCreationForm a:visited {
+	/*the above written code accessed subclasses. What is this exact syntax? */
+	color: black;
+	}
+	
+#signUpButton {
+	height 50px;
+	width: 150px; 
+	font-size: 14px;
+	background-color: white;
+	}	
+	
+#acPrimary {
+	text-decoration: underline;
+	padding: 20px;
+	font-size: 28px;
+	}
+	
+#acSecondary {
+	color: white; 
+	padding: 20px;
+	font-size: 28px;
+	}
+	
+#acToggleText {
+	color: white;
+	font-size: 20px;
+	}
+	
+#accountSignUpForm {
+	margin: auto;
+	border: none;
+	padding: 40px;
+	font-size: 18px; 
+	}
+
+/*signIn*/
+
+#accountSignIn {
+	background-color: #f6f6f6;
+	border: solid white;
+	border-radius: 10px;
+	margin-top:10%;
+	margin-left: 37.5%;
+	margin-bottom:10%;
+	margin-right:37.5%;
+	text-align: center
+	}
+	
+#accountSignIn a:link, #accountSignIn a:visited {
+	color: black;
+	}
+	
+.profilePage {
+	background-color: #f6f6f6;
+	border: solid white;
+	border-radius: 10px;
+	margin-top:10%;
+	margin-left: 37.5%;
+	margin-bottom:10%;
+	margin-right:37.5%;
+	text-align: center
+	font-size: 24px;
+	}
+		
+/*search*/
+.search {
+	background-color: #f6f6f6;
+	border: solid white;
+	border-radius: 10px;
+	margin-top:10%;
+	margin-left: 30.5%;
+	margin-bottom:10%;
+	margin-right:30.5%;
+	text-align: center
+	font-size: 24px;
+	}
+
+.results > th, td {
+	width: 10px;
+	}
+	
+.searchdiv {
+	margin: auto;
+	}
+	
